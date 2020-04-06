@@ -1,0 +1,54 @@
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+
+kbd {
+  padding: 4px;
+}
+
+
+.container kbd {
+  font-family: 'Acme', sans-serif;
+  font-weight: lighter;
+
+}
+
+.key {
+  padding: 2px;
+  transition: all .2s ease;
+  border: 1px solid black;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius: 15px 255px;
+  margin-right: 5px;
+}
+
+
+.play {
+  border-color: #a0dcff;
+  transform: scale(1.5);
+  box-shadow: 0 0 3rem #a0dcff;
+}
+
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
